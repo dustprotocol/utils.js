@@ -14,6 +14,7 @@ export { packageInfo } from './packageInfo';
 
 type Chain = keyof typeof ledgerApps;
 
+
 // A very basic wrapper for a ledger app -
 //  - it connects automatically, creating an app as required
 //  - Promises return errors (instead of wrapper errors)
