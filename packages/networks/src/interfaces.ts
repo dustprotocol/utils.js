@@ -3,17 +3,15 @@
 
 import type { KnownSubstrate, Network, SubstrateNetwork } from './types';
 
-import { knownGenesis, knownIcon, knownLedger, knownTestnet } from './defaults';
+import { knownGenesis, knownLedger } from './defaults';
 import { knownSubstrate } from './substrate';
 
 // These are known prefixes that are not sorted
-const UNSORTED = [0, 2, 42];
-const TESTNETS = ['testnet'];
+const UNSORTED = [42];
 
-function toExpanded (o: KnownSubstrate): SubstrateNetwork {
+function toExpanded (o: KnownSubstrate): Network {
   const network = o.network || '';
-  const nameParts = network.replace(/_/g, '-').split('-');
-  const n = o as SubstrateNetwork;
+  const n = o as Network;
 
   // ledger additions
   n.slip44 = knownLedger[network];
@@ -21,11 +19,11 @@ function toExpanded (o: KnownSubstrate): SubstrateNetwork {
 
   // general items
   n.genesisHash = knownGenesis[network] || [];
-  n.icon = knownIcon[network] || 'substrate';
+  n.icon = 'substrate';
 
   // filtering
-  n.isTestnet = !!knownTestnet[network] || TESTNETS.includes(nameParts[nameParts.length - 1]);
-  n.isIgnored = n.isTestnet || (!(o.standardAccount && o.decimals && o.symbols) && o.prefix !== 42);
+  n.isTestnet = false;
+  n.isIgnored = false;
 
   return n;
 }

@@ -3,7 +3,7 @@
 
 import type { Params } from './types';
 
-import { assert, u8aToBn } from '@polkadot/util';
+import { assert, u8aToBn } from '@reef-defi/util';
 
 import { DEFAULT_PARAMS } from './defaults';
 

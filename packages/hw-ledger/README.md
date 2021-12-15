@@ -1,2 +1,2 @@
-# @polkadot/hw-ledger
+# @reef-defi/hw-ledger
 

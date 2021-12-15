@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/networks authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { isHex } from '@polkadot/util';
+import { isHex } from '@reef-defi/util';
 
 import { knownGenesis, knownLedger } from './defaults';
 

@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { u8aFixLength } from '@polkadot/util';
+ * import { u8aFixLength } from '@reef-defi/util';
  *
  * u8aFixLength('0x12') // => 0x12
  * u8aFixLength('0x12', 16) // => 0x0012

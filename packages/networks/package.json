@@ -1,19 +1,19 @@
 {
-  "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/polkadot-js/common/issues",
+  "author": "Reef Finance",
+  "bugs": "https://github.com/reef-defi/utils.js/issues",
   "contributors": [],
   "description": "A list of all available Substrate networks and their applicable prefixes",
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "https://github.com/polkadot-js/common/tree/master/packages/networks#readme",
+  "homepage": "https://github.com/reef-defi/utils.js/tree/master/packages/networks#readme",
   "license": "Apache-2.0",
   "maintainers": [],
-  "name": "@polkadot/networks",
+  "name": "@reef-defi/networks",
   "repository": {
     "directory": "packages/networks",
     "type": "git",
-    "url": "https://github.com/polkadot-js/common.git"
+    "url": "https://github.com/reef-defi/utils.js.git"
   },
   "sideEffects": false,
   "type": "module",
@@ -23,7 +23,7 @@
     "@babel/runtime": "^7.16.0"
   },
   "devDependencies": {
-    "@polkadot/util": "7.8.2",
-    "@polkadot/x-fetch": "7.8.2"
+    "@reef-defi/util": "7.8.2",
+    "@reef-defi/x-fetch": "7.8.2"
   }
 }

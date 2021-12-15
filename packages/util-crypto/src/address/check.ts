@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@polkadot/util/types';
+import type { HexString } from '@reef-defi/util/types';
 import type { Prefix } from './types';
 
 import { base58Decode } from '../base58/decode';

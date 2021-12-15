@@ -23,7 +23,7 @@ const STRENGTH_MAP = {
  * <BR>
  *
  * ```javascript
- * import { mnemonicGenerate } from '@polkadot/util-crypto';
+ * import { mnemonicGenerate } from '@reef-defi/util-crypto';
  *
  * const mnemonic = mnemonicGenerate(); // => string
  * ```

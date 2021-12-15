@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isBuffer } from '@polkadot/util';
+ * import { isBuffer } from '@reef-defi/util';
  *
  * console.log('isBuffer', isBuffer(Buffer.from([]))); // => true
  * ```

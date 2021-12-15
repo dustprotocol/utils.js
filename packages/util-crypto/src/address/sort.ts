@@ -1,10 +1,10 @@
 // Copyright 2017-2021 @polkadot/util authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@polkadot/util/types';
+import type { HexString } from '@reef-defi/util/types';
 import type { Prefix } from './types';
 
-import { u8aSorted } from '@polkadot/util';
+import { u8aSorted } from '@reef-defi/util';
 
 import { encodeAddress } from './encode';
 import { addressToU8a } from './util';

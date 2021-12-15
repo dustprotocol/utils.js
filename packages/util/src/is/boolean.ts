@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isBoolean } from '@polkadot/util';
+ * import { isBoolean } from '@reef-defi/util';
  *
  * isBoolean(false); // => true
  * ```

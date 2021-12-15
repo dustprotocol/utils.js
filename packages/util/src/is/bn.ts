@@ -13,7 +13,7 @@ import { BN } from '../bn/bn';
  *
  * ```javascript
  * import BN from 'bn.js';
- * import { isBn } from '@polkadot/util';
+ * import { isBn } from '@reef-defi/util';
  *
  * console.log('isBn', isBn(new BN(1))); // => true
  * ```

@@ -1,9 +1,10 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@polkadot/util/types';
+import type { HexString } from '@reef-defi/util/types';
 
-import { u8aToU8a } from '@polkadot/util';
+import { u8aToU8a } from '@reef-defi/util';
+
 import { isReady, twox } from '@polkadot/wasm-crypto';
 
 import xxhash64AsBn from './xxhash64/asBn';
@@ -17,7 +18,7 @@ import xxhash64AsBn from './xxhash64/asBn';
  * <BR>
  *
  * ```javascript
- * import { xxhashAsU8a } from '@polkadot/util-crypto';
+ * import { xxhashAsU8a } from '@reef-defi/util-crypto';
  *
  * xxhashAsU8a('abc'); // => 0x44bc2cf5ad770999
  * ```

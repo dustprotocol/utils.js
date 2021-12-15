@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/keyring authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { NONCE_LENGTH, SCRYPT_LENGTH } from '@polkadot/util-crypto/json/constants';
+import { NONCE_LENGTH, SCRYPT_LENGTH } from '@reef-defi/util-crypto/json/constants';
 
 import { createTestPairs } from '../testingPairs';
 import { PKCS8_DIVIDER, PKCS8_HEADER, PUB_LENGTH, SEC_LENGTH } from './defaults';

@@ -17,7 +17,7 @@ interface Observable {
  * <BR>
  *
  * ```javascript
- * import { isObservable } from '@polkadot/util';
+ * import { isObservable } from '@reef-defi/util';
  *
  * console.log('isObservable', isObservable(...));
  * ```

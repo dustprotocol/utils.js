@@ -3,7 +3,7 @@
 
 import type { Params } from './types';
 
-import { bnToU8a, u8aConcat } from '@polkadot/util';
+import { bnToU8a, u8aConcat } from '@reef-defi/util';
 
 export function scryptToU8a (salt: Uint8Array, { N, p, r }: Params): Uint8Array {
   return u8aConcat(

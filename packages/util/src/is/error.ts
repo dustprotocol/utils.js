@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isError } from '@polkadot/util';
+ * import { isError } from '@reef-defi/util';
  *
  * console.log('isError', isError(new Error('message'))); // => true
  * ```

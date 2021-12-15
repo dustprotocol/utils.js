@@ -1,11 +1,11 @@
 // Copyright 2017-2021 @polkadot/keyring authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { EncryptedJsonEncoding } from '@polkadot/util-crypto/types';
+import type { EncryptedJsonEncoding } from '@reef-defi/util-crypto/types';
 import type { PairInfo } from './types';
 
-import { assert, isUndefined, u8aEq } from '@polkadot/util';
-import { jsonDecryptData } from '@polkadot/util-crypto';
+import { assert, isUndefined, u8aEq } from '@reef-defi/util';
+import { jsonDecryptData } from '@reef-defi/util-crypto';
 
 import { PKCS8_DIVIDER, PKCS8_HEADER, PUB_LENGTH, SEC_LENGTH, SEED_LENGTH } from './defaults';
 

@@ -16,7 +16,7 @@ const MAX_U32 = new BN(2).pow(new BN(32 - 2)).subn(1);
  * <BR>
  *
  * ```javascript
- * import { compactToU8a } from '@polkadot/util';
+ * import { compactToU8a } from '@reef-defi/util';
  *
  * console.log(compactToU8a(511, 32)); // Uint8Array([0b11111101, 0b00000111])
  * ```

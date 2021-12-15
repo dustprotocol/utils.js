@@ -3,7 +3,7 @@
 
 import type { EncryptedJson } from './types';
 
-import { assert, hexToU8a, isHex } from '@polkadot/util';
+import { assert, hexToU8a, isHex } from '@reef-defi/util';
 
 import { base64Decode } from '../base64';
 import { jsonDecryptData } from './decryptData';

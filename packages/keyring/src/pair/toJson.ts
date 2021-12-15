@@ -1,11 +1,11 @@
 // Copyright 2017-2021 @polkadot/keyring authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { KeypairType } from '@polkadot/util-crypto/types';
+import type { KeypairType } from '@reef-defi/util-crypto/types';
 import type { KeyringPair$Json, KeyringPair$Meta } from '../types';
 
-import { objectSpread } from '@polkadot/util';
-import { jsonEncryptFormat } from '@polkadot/util-crypto';
+import { objectSpread } from '@reef-defi/util';
+import { jsonEncryptFormat } from '@reef-defi/util-crypto';
 
 interface PairStateJson {
   address: string;

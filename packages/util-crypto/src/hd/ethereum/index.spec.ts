@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { mnemonicToLegacySeed } from '@polkadot/util-crypto';
+import { mnemonicToLegacySeed } from '@reef-defi/util-crypto';
 
 import { hdEthereum } from '.';
 

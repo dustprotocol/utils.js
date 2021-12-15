@@ -3,10 +3,10 @@
 
 // From https://github.com/paritytech/substrate/wiki/Secret-URI-Test-Vectors
 
-import type { KeypairType } from '@polkadot/util-crypto/types';
+import type { KeypairType } from '@reef-defi/util-crypto/types';
 
-import { u8aToHex } from '@polkadot/util';
-import { cryptoWaitReady } from '@polkadot/util-crypto';
+import { u8aToHex } from '@reef-defi/util';
+import { cryptoWaitReady } from '@reef-defi/util-crypto';
 
 import Keyring from '.';
 

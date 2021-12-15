@@ -13,9 +13,8 @@
 //   - Remove setting of wordlist passing of wordlist in functions
 //   - Remove mnemonicToSeed (we only use the sync variant)
 
+import { assert, stringToU8a, u8aToU8a } from '@reef-defi/util';
 import hash from 'hash.js';
-
-import { assert, stringToU8a, u8aToU8a } from '@polkadot/util';
 
 import { pbkdf2Encode } from '../pbkdf2';
 import { randomAsU8a } from '../random/asU8a';

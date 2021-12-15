@@ -15,7 +15,7 @@ import { stringToU8a } from './toU8a';
  * <BR>
  *
  * ```javascript
- * import { stringToHex } from '@polkadot/util';
+ * import { stringToHex } from '@reef-defi/util';
  *
  * stringToU8a('hello'); // 0x68656c6c6f
  * ```

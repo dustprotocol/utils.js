@@ -1,12 +1,12 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@polkadot/util/types';
+import type { HexString } from '@reef-defi/util/types';
 import type { Keypair } from '../types';
 
+import { assert, u8aToU8a } from '@reef-defi/util';
 import nacl from 'tweetnacl';
 
-import { assert, u8aToU8a } from '@polkadot/util';
 import { ed25519Sign, isReady } from '@polkadot/wasm-crypto';
 
 /**
@@ -18,7 +18,7 @@ import { ed25519Sign, isReady } from '@polkadot/wasm-crypto';
  * <BR>
  *
  * ```javascript
- * import { naclSign } from '@polkadot/util-crypto';
+ * import { naclSign } from '@reef-defi/util-crypto';
  *
  * naclSign([...], [...]); // => [...]
  * ```

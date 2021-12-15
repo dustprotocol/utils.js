@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/keyring authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@polkadot/util/types';
-import type { EncryptedJson, Keypair, KeypairType, Prefix } from '@polkadot/util-crypto/types';
+import type { HexString } from '@reef-defi/util/types';
+import type { EncryptedJson, Keypair, KeypairType, Prefix } from '@reef-defi/util-crypto/types';
 
 export interface KeyringOptions {
   ss58Format?: Prefix;

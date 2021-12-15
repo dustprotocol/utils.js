@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { u8aToBuffer } from '@polkadot/util';
+ * import { u8aToBuffer } from '@reef-defi/util';
  *
  * console.log('Buffer', u8aToBuffer('0x123480001f'));
  * ```

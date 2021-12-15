@@ -1,19 +1,19 @@
 {
-  "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/polkadot-js/common/issues",
+  "author": "Reef Finance",
+  "bugs": "https://github.com/reef-defi/utils.js/issues",
   "contributors": [],
   "description": "A cross-environment WebSocket replacement",
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "https://github.com/polkadot-js/common/tree/master/packages/x-ws#readme",
+  "homepage": "https://github.com/reef-defi/utils.js/tree/master/packages/x-ws#readme",
   "license": "Apache-2.0",
   "maintainers": [],
-  "name": "@polkadot/x-ws",
+  "name": "@reef-defi/x-ws",
   "repository": {
     "directory": "packages/x-ws",
     "type": "git",
-    "url": "https://github.com/polkadot-js/common.git"
+    "url": "https://github.com/reef-defi/utils.js.git"
   },
   "sideEffects": false,
   "type": "module",
@@ -23,7 +23,7 @@
   "react-native": "react-native.js",
   "dependencies": {
     "@babel/runtime": "^7.16.0",
-    "@polkadot/x-global": "7.8.2",
+    "@reef-defi/x-global": "7.8.2",
     "@types/websocket": "^1.0.4",
     "websocket": "^1.0.34"
   }

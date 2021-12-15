@@ -4,8 +4,8 @@
 import type { ResponseBase, SubstrateApp } from '@zondax/ledger-substrate';
 import type { AccountOptions, LedgerAddress, LedgerSignature, LedgerTypes, LedgerVersion } from './types';
 
-import { transports } from '@polkadot/hw-ledger-transports';
-import { assert, u8aToBuffer } from '@polkadot/util';
+import { transports } from '@reef-defi/hw-ledger-transports';
+import { assert, u8aToBuffer } from '@reef-defi/util';
 
 import { LEDGER_DEFAULT_ACCOUNT, LEDGER_DEFAULT_CHANGE, LEDGER_DEFAULT_INDEX, LEDGER_SUCCESS_CODE } from './constants';
 import { ledgerApps } from './defaults';
@@ -13,7 +13,6 @@ import { ledgerApps } from './defaults';
 export { packageInfo } from './packageInfo';
 
 type Chain = keyof typeof ledgerApps;
-
 
 // A very basic wrapper for a ledger app -
 //  - it connects automatically, creating an app as required

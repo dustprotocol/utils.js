@@ -1,7 +1,8 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { hexToU8a, stringToU8a, u8aConcat, u8aToHex, u8aWrapBytes } from '@polkadot/util';
+import { hexToU8a, stringToU8a, u8aConcat, u8aToHex, u8aWrapBytes } from '@reef-defi/util';
+
 import { waitReady } from '@polkadot/wasm-crypto';
 
 import { decodeAddress } from '../address';

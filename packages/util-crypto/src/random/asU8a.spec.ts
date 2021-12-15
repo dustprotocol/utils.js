@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { isU8a } from '@polkadot/util';
+import { isU8a } from '@reef-defi/util';
 
 import { randomAsU8a } from '.';
 

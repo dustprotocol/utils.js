@@ -1,5 +1,5 @@
 {
-  "extends": "@polkadot/dev/config/tsconfig.json",
+  "extends": "@reef-defi/dev/config/tsconfig.json",
   "exclude": [
     "build/**/*",
     "**/build/**/*"
@@ -7,25 +7,25 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@polkadot/hw-ledger": [ "packages/ledger/src" ],
-      "@polkadot/hw-ledger/*": [ "packages/ledger/src/*" ],
-      "@polkadot/hw-ledger-transports": [ "packages/hw-ledger-transports/src/browser" ],
-      "@polkadot/hw-ledger-transports/*": [ "packages/hw-ledger-transports/src/browser" ],
-      "@polkadot/keyring": [ "packages/keyring/src" ],
-      "@polkadot/keyring/*": [ "packages/keyring/src/*" ],
-      "@polkadot/networks": [ "packages/networks/src" ],
-      "@polkadot/networks/*": [ "packages/networks/src/*" ],
-      "@polkadot/util-crypto": [ "packages/util-crypto/src" ],
-      "@polkadot/util-crypto/*": [ "packages/util-crypto/src/*" ],
-      "@polkadot/util": [ "packages/util/src" ],
-      "@polkadot/util/*": [ "packages/util/src/*" ],
-      "@polkadot/x-bundle/*": [ "packages/x-bundle/src/*" ],
-      "@polkadot/x-fetch": [ "packages/x-fetch/src/browser" ],
-      "@polkadot/x-global": [ "packages/x-global/src" ],
-      "@polkadot/x-randomvalues": [ "packages/x-randomvalues/src/browser" ],
-      "@polkadot/x-textdecoder": [ "packages/x-textdecoder/src/browser" ],
-      "@polkadot/x-textencoder": [ "packages/x-textencoder/src/browser" ],
-      "@polkadot/x-ws": [ "packages/x-ws/src/browser" ]
+      "@reef-defi/hw-ledger": [ "packages/ledger/src" ],
+      "@reef-defi/hw-ledger/*": [ "packages/ledger/src/*" ],
+      "@reef-defi/hw-ledger-transports": [ "packages/hw-ledger-transports/src/browser" ],
+      "@reef-defi/hw-ledger-transports/*": [ "packages/hw-ledger-transports/src/browser" ],
+      "@reef-defi/keyring": [ "packages/keyring/src" ],
+      "@reef-defi/keyring/*": [ "packages/keyring/src/*" ],
+      "@reef-defi/networks": [ "packages/networks/src" ],
+      "@reef-defi/networks/*": [ "packages/networks/src/*" ],
+      "@reef-defi/util-crypto": [ "packages/util-crypto/src" ],
+      "@reef-defi/util-crypto/*": [ "packages/util-crypto/src/*" ],
+      "@reef-defi/util": [ "packages/util/src" ],
+      "@reef-defi/util/*": [ "packages/util/src/*" ],
+      "@reef-defi/x-bundle/*": [ "packages/x-bundle/src/*" ],
+      "@reef-defi/x-fetch": [ "packages/x-fetch/src/browser" ],
+      "@reef-defi/x-global": [ "packages/x-global/src" ],
+      "@reef-defi/x-randomvalues": [ "packages/x-randomvalues/src/browser" ],
+      "@reef-defi/x-textdecoder": [ "packages/x-textdecoder/src/browser" ],
+      "@reef-defi/x-textencoder": [ "packages/x-textencoder/src/browser" ],
+      "@reef-defi/x-ws": [ "packages/x-ws/src/browser" ]
     },
     "skipLibCheck": true,
     "typeRoots": [

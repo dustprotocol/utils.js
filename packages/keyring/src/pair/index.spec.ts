@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/keyring authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { hexToU8a, u8aToHex } from '@polkadot/util';
-import { cryptoWaitReady, encodeAddress as toSS58, setSS58Format } from '@polkadot/util-crypto';
+import { hexToU8a, u8aToHex } from '@reef-defi/util';
+import { cryptoWaitReady, encodeAddress as toSS58, setSS58Format } from '@reef-defi/util-crypto';
 
 import { PAIRSSR25519 } from '../testing';
 import { createTestPairs } from '../testingPairs';

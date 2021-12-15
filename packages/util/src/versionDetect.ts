@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { xglobal } from '@polkadot/x-global';
+import { xglobal } from '@reef-defi/x-global';
 
 import { isFunction } from './is/function';
 import { isString } from './is/string';
@@ -94,7 +94,7 @@ function getPath (pathOrFn?: FnString | string | false): string {
  * @summary Checks that a specific package is only imported once
  */
 export function detectPackage ({ name, version }: PackageJson, pathOrFn?: FnString | string | false, deps: PackageJson[] = []): void {
-  assert(name.startsWith('@polkadot'), () => `Invalid package descriptor ${name}`);
+  assert(name.startsWith('@reef-defi') || name.startsWith('@polkadot/wasm-crypto'), () => `Invalid package descriptor ${name}`);
 
   const entry = getEntry(name);
 

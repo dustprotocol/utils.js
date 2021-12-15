@@ -12,7 +12,7 @@ import type { Constructor } from '../types';
  * <BR>
  *
  * ```javascript
- * import { isChildClass } from '@polkadot/util';
+ * import { isChildClass } from '@reef-defi/util';
  *
  * console.log('isChildClass', isChildClass(BN, BN); // => true
  * console.log('isChildClass', isChildClass(BN, Uint8Array); // => false

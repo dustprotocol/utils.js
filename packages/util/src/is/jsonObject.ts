@@ -18,7 +18,7 @@ interface ObjectIndexed {
  * <BR>
  *
  * ```javascript
- * import { isJsonObject } from '@polkadot/util';
+ * import { isJsonObject } from '@reef-defi/util';
  *
  * isJsonObject({}); // => true
  * isJsonObject({

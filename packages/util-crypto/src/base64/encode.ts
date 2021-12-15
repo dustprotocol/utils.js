@@ -1,11 +1,10 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { U8aLike } from '@polkadot/util/types';
+import type { U8aLike } from '@reef-defi/util/types';
 
+import { u8aToU8a } from '@reef-defi/util';
 import base64 from 'base64-js';
-
-import { u8aToU8a } from '@polkadot/util';
 
 /**
  * @name base64Encode

@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isUndefined } from '@polkadot/util';
+ * import { isUndefined } from '@reef-defi/util';
  *
  * console.log('isUndefined', isUndefined(void(0))); // => true
  * ```

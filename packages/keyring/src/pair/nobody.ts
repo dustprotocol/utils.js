@@ -3,7 +3,7 @@
 
 import type { KeyringPair, KeyringPair$Json, KeyringPair$Meta } from '../types';
 
-import { encodeAddress } from '@polkadot/util-crypto';
+import { encodeAddress } from '@reef-defi/util-crypto';
 
 const publicKey = new Uint8Array(32);
 const address = encodeAddress(publicKey);

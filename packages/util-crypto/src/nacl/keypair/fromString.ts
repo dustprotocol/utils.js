@@ -3,7 +3,7 @@
 
 import type { Keypair } from '../../types';
 
-import { stringToU8a } from '@polkadot/util';
+import { stringToU8a } from '@reef-defi/util';
 
 import { blake2AsU8a } from '../../blake2/asU8a';
 import { naclKeypairFromSeed } from './fromSeed';
@@ -17,7 +17,7 @@ import { naclKeypairFromSeed } from './fromSeed';
  * <BR>
  *
  * ```javascript
- * import { naclKeypairFromString } from '@polkadot/util-crypto';
+ * import { naclKeypairFromString } from '@reef-defi/util-crypto';
  *
  * naclKeypairFromString('test'); // => { secretKey: [...], publicKey: [...] }
  * ```

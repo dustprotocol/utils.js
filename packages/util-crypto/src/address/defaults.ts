@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Network } from '@polkadot/networks/types';
+import type { Network } from '@reef-defi/networks/types';
 
 import { availableNetworks } from '../networks';
 

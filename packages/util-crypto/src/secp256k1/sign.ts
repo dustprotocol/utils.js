@@ -4,7 +4,7 @@
 import type { Keypair } from '../types';
 import type { HashType } from './types';
 
-import { assert, bnToU8a, u8aConcat } from '@polkadot/util';
+import { assert, bnToU8a, u8aConcat } from '@reef-defi/util';
 
 import { secp256k1Hasher } from './hasher';
 import { EXPAND_OPT, secp256k1 } from './secp256k1';

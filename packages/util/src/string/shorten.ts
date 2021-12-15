@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { stringShorten } from '@polkadot/util';
+ * import { stringShorten } from '@reef-defi/util';
  *
  * stringShorten('1234567890', 2); // => 12..90
  * ```

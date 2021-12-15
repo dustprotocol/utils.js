@@ -3,7 +3,7 @@
 
 import type { EncryptedJson } from './types';
 
-import { u8aConcat } from '@polkadot/util';
+import { u8aConcat } from '@reef-defi/util';
 
 import { naclEncrypt } from '../nacl';
 import { scryptEncode, scryptToU8a } from '../scrypt';

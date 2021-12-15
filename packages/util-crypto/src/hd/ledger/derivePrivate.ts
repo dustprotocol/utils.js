@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BN_EIGHT, bnToU8a, u8aConcat, u8aToBn } from '@polkadot/util';
+import { BN_EIGHT, bnToU8a, u8aConcat, u8aToBn } from '@reef-defi/util';
 
 import { hmacSha512 } from '../../hmac';
 

@@ -3,10 +3,9 @@
 
 import type { KnownSubstrate, Ss58Registry } from './types';
 
+import { stringify } from '@reef-defi/util';
+import { fetch } from '@reef-defi/x-fetch';
 import fs from 'fs';
-
-import { stringify } from '@polkadot/util';
-import { fetch } from '@polkadot/x-fetch';
 
 import { substrateRegistry } from './defaults';
 import { allNetworks } from './';

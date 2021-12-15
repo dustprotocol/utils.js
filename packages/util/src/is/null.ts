@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isNull } from '@polkadot/util';
+ * import { isNull } from '@reef-defi/util';
  *
  * console.log('isNull', isNull(null)); // => true
  * ```

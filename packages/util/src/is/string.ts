@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isString } from '@polkadot/util';
+ * import { isString } from '@reef-defi/util';
  *
  * console.log('isString', isString('test')); // => true
  * ```

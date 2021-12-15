@@ -8,7 +8,7 @@ import { allNetworks, availableNetworks, selectableNetworks } from '.';
 
 describe('selectableNetworks', (): void => {
   it('has the correct starting order', (): void => {
-    expect(selectableNetworks.slice(0, 3).map(({ prefix }) => prefix)).toEqual([0, 2, 42]);
+    expect(selectableNetworks.slice(0, 3).map(({ prefix }) => prefix)).toEqual([42]);
   });
 
   it('has no ignored networks', (): void => {

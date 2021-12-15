@@ -3,7 +3,7 @@
 
 import type { Prefix } from './types';
 
-import { logger } from '@polkadot/util';
+import { logger } from '@reef-defi/util';
 
 import { defaults } from './defaults';
 

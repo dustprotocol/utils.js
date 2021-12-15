@@ -3,8 +3,8 @@
 
 import type { KeyringPair$Json } from './types';
 
-import { hexToU8a, stringToU8a } from '@polkadot/util';
-import { base64Decode, cryptoWaitReady, encodeAddress, randomAsU8a, setSS58Format } from '@polkadot/util-crypto';
+import { hexToU8a, stringToU8a } from '@reef-defi/util';
+import { base64Decode, cryptoWaitReady, encodeAddress, randomAsU8a, setSS58Format } from '@reef-defi/util-crypto';
 
 import { decodePair } from './pair/decode';
 import Keyring from '.';

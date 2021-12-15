@@ -15,7 +15,7 @@ import { numberToHex } from './toHex';
  * <BR>
  *
  * ```javascript
- * import { numberToU8a } from '@polkadot/util';
+ * import { numberToU8a } from '@reef-defi/util';
  *
  * numberToU8a(0x1234); // => [0x12, 0x34]
  * ```

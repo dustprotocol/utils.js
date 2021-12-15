@@ -3,7 +3,7 @@
 
 import type { Keypair } from '../../types';
 
-import { assert } from '@polkadot/util';
+import { assert } from '@reef-defi/util';
 
 import { mnemonicValidate } from '../../mnemonic';
 import { naclKeypairFromSeed } from '../../nacl';

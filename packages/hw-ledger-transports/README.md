@@ -1,2 +1,2 @@
-# @polkadot/hw-ledger-transports
+# @reef-defi/hw-ledger-transports
 

@@ -1,9 +1,9 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@polkadot/util/types';
+import type { HexString } from '@reef-defi/util/types';
 
-import { isHex } from '@polkadot/util';
+import { isHex } from '@reef-defi/util';
 
 import { isEthereumChecksum } from './isChecksum';
 

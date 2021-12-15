@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { stringLowerFirst } from '@polkadot/util';
+ * import { stringLowerFirst } from '@reef-defi/util';
  *
  * stringLowerFirst('ABC'); // => 'aBC'
  * ```

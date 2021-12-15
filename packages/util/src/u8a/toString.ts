@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { TextDecoder } from '@polkadot/x-textdecoder';
+import { TextDecoder } from '@reef-defi/x-textdecoder';
 
 const decoder = new TextDecoder('utf-8');
 
@@ -14,7 +14,7 @@ const decoder = new TextDecoder('utf-8');
  * <BR>
  *
  * ```javascript
- * import { u8aToString } from '@polkadot/util';
+ * import { u8aToString } from '@reef-defi/util';
  *
  * u8aToString(new Uint8Array([0x68, 0x65, 0x6c, 0x6c, 0x6f])); // hello
  * ```

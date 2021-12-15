@@ -3,7 +3,8 @@
 
 import type { Keypair } from '../types';
 
-import { u8aToHex } from '@polkadot/util';
+import { u8aToHex } from '@reef-defi/util';
+
 import { waitReady } from '@polkadot/wasm-crypto';
 
 import { schnorrkelAgreement, schnorrkelKeypairFromSeed } from '.';

@@ -12,7 +12,7 @@ import { assert } from '../assert';
  * <BR>
  *
  * ```javascript
- * import { arrayRange } from '@polkadot/util';
+ * import { arrayRange } from '@reef-defi/util';
  *
  * arrayRange(5); // [0, 1, 2, 3, 4]
  * arrayRange(3, 5); // [5, 6, 7]

@@ -1,10 +1,11 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@polkadot/util/types';
+import type { HexString } from '@reef-defi/util/types';
 import type { Keypair } from '../types';
 
-import { assert, u8aToU8a } from '@polkadot/util';
+import { assert, u8aToU8a } from '@reef-defi/util';
+
 import { vrfSign } from '@polkadot/wasm-crypto';
 
 const EMPTY_U8A = new Uint8Array();

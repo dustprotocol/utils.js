@@ -3,7 +3,7 @@
 
 import type { Keypair } from '../../types';
 
-import { assert, bnToU8a, stringToU8a, u8aConcat } from '@polkadot/util';
+import { assert, bnToU8a, stringToU8a, u8aConcat } from '@reef-defi/util';
 
 import { hmacSha512 } from '../../hmac';
 import { secp256k1KeypairFromSeed, secp256k1PrivateKeyTweakAdd } from '../../secp256k1';

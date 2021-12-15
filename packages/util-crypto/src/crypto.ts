@@ -11,7 +11,7 @@ export function cryptoWaitReady (): Promise<boolean> {
   return waitReady()
     .then((): boolean => true)
     .catch((error): boolean => {
-      console.error('Unable to initialize @polkadot/util-crypto', error);
+      console.error('Unable to initialize @reef-defi/util-crypto', error);
 
       return false;
     });

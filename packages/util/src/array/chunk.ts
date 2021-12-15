@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { arrayChunk } from '@polkadot/util';
+ * import { arrayChunk } from '@reef-defi/util';
  *
  * arrayChunk([1, 2, 3, 4, 5]); // [[1, 2], [3, 4], [5]]
  * ```

@@ -3,7 +3,7 @@
 
 import type { EncryptedJsonEncoding } from './types';
 
-import { assert, stringToU8a, u8aFixLength } from '@polkadot/util';
+import { assert, stringToU8a, u8aFixLength } from '@reef-defi/util';
 
 import { naclDecrypt } from '../nacl';
 import { scryptEncode, scryptFromU8a } from '../scrypt';

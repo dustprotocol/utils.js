@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isInstanceOf } from '@polkadot/util';
+ * import { isInstanceOf } from '@reef-defi/util';
  *
  * console.log('isInstanceOf', isInstanceOf(new Array(0), Array)); // => true
  * ```

@@ -14,7 +14,7 @@ import nacl from 'tweetnacl';
  * <BR>
  *
  * ```javascript
- * import { naclKeypairFromSecret } from '@polkadot/util-crypto';
+ * import { naclKeypairFromSecret } from '@reef-defi/util-crypto';
  *
  * naclKeypairFromSecret(...); // => { secretKey: [...], publicKey: [...] }
  * ```

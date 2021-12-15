@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BN, hexToBn } from '@polkadot/util';
+import { BN, hexToBn } from '@reef-defi/util';
 
 import { randomAsHex } from './asHex';
 
@@ -16,7 +16,7 @@ const BN_53 = new BN(0b11111111111111111111111111111111111111111111111111111);
  * <BR>
  *
  * ```javascript
- * import { randomAsNumber } from '@polkadot/util-crypto';
+ * import { randomAsNumber } from '@reef-defi/util-crypto';
  *
  * randomAsNumber(); // => <random number>
  * ```

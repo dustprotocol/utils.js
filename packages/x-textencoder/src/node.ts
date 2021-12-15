@@ -1,9 +1,8 @@
 // Copyright 2017-2021 @polkadot/x-textencoder authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
+import { xglobal } from '@reef-defi/x-global';
 import util from 'util';
-
-import { xglobal } from '@polkadot/x-global';
 
 export { packageInfo } from './packageInfo';
 
