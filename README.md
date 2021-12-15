@@ -7,7 +7,7 @@
 
 Various useful utility functions that are used across all projects in the [@reef-defi](https://reef.io) namespace. It provides utility functions with additional safety checks, allowing not only for consistent coding, but also reducing the general boilerplate.
 
-## overview
+## Overview
 
 This repository is split up into a number of internal packages, namely utilities -
 
