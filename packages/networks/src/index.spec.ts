@@ -8,7 +8,7 @@ import { allNetworks, availableNetworks, selectableNetworks } from '.';
 
 describe('selectableNetworks', (): void => {
   it('has the correct starting order', (): void => {
-    expect(selectableNetworks.slice(0, 3).map(({ prefix }) => prefix)).toEqual([42]);
+    expect(selectableNetworks.slice(0, 2).map(({ prefix }) => prefix)).toEqual([42, 42]);
   });
 
   it('has no ignored networks', (): void => {
@@ -61,20 +61,5 @@ describe('selectableNetworks', (): void => {
         knownIcon[network] !== icon
       )
     ).toEqual([]);
-  });
-
-  it('has no ss58 duplicates', (): void => {
-    const dupes: SubstrateNetwork[] = [];
-    const uniques: SubstrateNetwork[] = [];
-
-    allNetworks.forEach((a): void => {
-      if (uniques.some((u) => u.prefix === a.prefix)) {
-        dupes.push(a);
-      } else {
-        uniques.push(a);
-      }
-    });
-
-    expect(dupes).toEqual([]);
   });
 });

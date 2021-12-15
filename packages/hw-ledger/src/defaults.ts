@@ -4,20 +4,10 @@
 import type Transport from '@ledgerhq/hw-transport';
 import type { SubstrateApp } from '@zondax/ledger-substrate';
 
-import { newCentrifugeApp, newDockApp, newEdgewareApp, newEquilibriumApp, newGenshiroApp, newKusamaApp, newNodleApp, newPolkadotApp, newPolymeshApp, newStatemineApp, newReefApp } from '@zondax/ledger-substrate';
+import { newReefApp } from '@zondax/ledger-substrate';
 
-// These match up with the keys of the knownLedger object in the @polkadot/networks/defaults.ts
+// These match up with the keys of the knownLedger object in the @reef-defi/networks/defaults.ts
 export const ledgerApps: Record<string, (transport: Transport) => SubstrateApp> = {
-  centrifuge: newCentrifugeApp,
-  'dock-mainnet': newDockApp,
-  edgeware: newEdgewareApp,
-  equilibrium: newEquilibriumApp,
-  genshiro: newGenshiroApp,
-  kusama: newKusamaApp,
-  'nodle-chain': newNodleApp,
-  polkadot: newPolkadotApp,
-  polymesh: newPolymeshApp,
-  statemine: newStatemineApp,
-  "reef-testnet": newReefApp,
-  "reef-mainnet": newReefApp,
+  'reef-mainnet': newReefApp,
+  'reef-testnet': newReefApp
 };
