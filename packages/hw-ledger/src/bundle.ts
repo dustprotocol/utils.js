@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/hw-ledger authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { ResponseBase, SubstrateApp } from '@zondax/ledger-substrate';
+import type { ResponseBase, SubstrateApp } from '@dust-defi/ledger-substrate';
 import type { AccountOptions, LedgerAddress, LedgerSignature, LedgerTypes, LedgerVersion } from './types';
 
 import { transports } from '@dust-defi/hw-ledger-transports';

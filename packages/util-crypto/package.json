@@ -26,10 +26,10 @@
   "main": "index.js",
   "dependencies": {
     "@babel/runtime": "^7.16.0",
-    "@polkadot/wasm-crypto": "^4.2.1",
     "@dust-defi/networks": "7.8.2",
     "@dust-defi/util": "7.8.2",
     "@dust-defi/x-randomvalues": "7.8.2",
+    "@polkadot/wasm-crypto": "^4.2.1",
     "base-x": "^3.0.9",
     "base64-js": "^1.5.1",
     "blakejs": "^1.1.1",
