@@ -4,13 +4,13 @@
 import { detectPackage } from './versionDetect';
 
 describe('detectPackage', (): void => {
-  const PKG = '@reef-defi/util';
+  const PKG = '@dust-defi/util';
   const VER1 = '9.8.0-beta.45';
   const VER2 = '9.7.1';
   const VER3 = '9.6.1';
-  const PATH = '/Users/jaco/Projects/polkadot-js/api/node_modules/@reef-defi/util';
+  const PATH = '/Users/jaco/Projects/polkadot-js/api/node_modules/@dust-defi/util';
 
-  const MISMATCH = `@reef-defi/util has multiple versions, ensure that there is only one installed.
+  const MISMATCH = `@dust-defi/util has multiple versions, ensure that there is only one installed.
 Either remove and explicitly install matching versions or dedupe using your package manager.
 The following conflicting packages were found:
 \t${VER1}\t${PATH}/01
@@ -43,15 +43,15 @@ The following conflicting packages were found:
 });
 
 describe('detectPackageDeps', (): void => {
-  const DEP0 = { name: '@reef-defi/keyring', version: '1.1.1' };
-  const DEP1 = { name: '@reef-defi/util', version: '1.1.2' };
-  const DEP2 = { name: '@reef-defi/util-crypto', version: '1.1.3' };
-  const DEP3 = { name: '@reef-defi/networks', version: '1.1.1' };
+  const DEP0 = { name: '@dust-defi/keyring', version: '1.1.1' };
+  const DEP1 = { name: '@dust-defi/util', version: '1.1.2' };
+  const DEP2 = { name: '@dust-defi/util-crypto', version: '1.1.3' };
+  const DEP3 = { name: '@dust-defi/networks', version: '1.1.1' };
 
   it('should not log when no mismatches are found', (): void => {
     const spy = jest.spyOn(console, 'warn');
 
-    detectPackage({ name: '@reef-defi/one', version: '1.1.1' }, false, [DEP0, DEP3]);
+    detectPackage({ name: '@dust-defi/one', version: '1.1.1' }, false, [DEP0, DEP3]);
     expect(spy).not.toHaveBeenCalled();
     spy.mockRestore();
   });
@@ -59,12 +59,12 @@ describe('detectPackageDeps', (): void => {
   it('should log when mismatches are found', (): void => {
     const spy = jest.spyOn(console, 'warn');
 
-    detectPackage({ name: '@reef-defi/two', version: '1.1.1' }, false, [DEP0, DEP1, DEP2, DEP3]);
-    expect(spy).toHaveBeenCalledWith(`@reef-defi/two requires direct dependencies exactly matching version 1.1.1.
+    detectPackage({ name: '@dust-defi/two', version: '1.1.1' }, false, [DEP0, DEP1, DEP2, DEP3]);
+    expect(spy).toHaveBeenCalledWith(`@dust-defi/two requires direct dependencies exactly matching version 1.1.1.
 Either remove and explicitly install matching versions or dedupe using your package manager.
 The following conflicting packages were found:
-\t1.1.2\t@reef-defi/util
-\t1.1.3\t@reef-defi/util-crypto`);
+\t1.1.2\t@dust-defi/util
+\t1.1.3\t@dust-defi/util-crypto`);
     spy.mockRestore();
   });
 });

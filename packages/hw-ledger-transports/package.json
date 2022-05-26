@@ -1,18 +1,18 @@
 {
   "author": "Reef Finance",
-  "bugs": "https://github.com/reef-defi/utils.js/issues",
+  "bugs": "https://github.com/dustprotocol/utils.js/issues",
   "contributors": [],
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "https://github.com/reef-defi/utils.js/tree/master/packages/hw-ledger-transports#readme",
+  "homepage": "https://github.com/dustprotocol/utils.js/tree/master/packages/hw-ledger-transports#readme",
   "license": "Apache-2.0",
   "maintainers": [],
-  "name": "@reef-defi/hw-ledger-transports",
+  "name": "@dust-defi/hw-ledger-transports",
   "repository": {
     "directory": "packages/hw-ledger-transports",
     "type": "git",
-    "url": "https://github.com/reef-defi/utils.js.git"
+    "url": "https://github.com/dustprotocol/utils.js.git"
   },
   "sideEffects": false,
   "type": "module",

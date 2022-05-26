@@ -25,7 +25,7 @@ interface Options extends ToBnOptions {
  *
  * ```javascript
  * import BN from 'bn.js';
- * import { bnToHex } from '@reef-defi/util';
+ * import { bnToHex } from '@dust-defi/util';
  *
  * bnToHex(new BN(0x123456)); // => '0x123456'
  * ```

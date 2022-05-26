@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isBoolean } from '@reef-defi/util';
+ * import { isBoolean } from '@dust-defi/util';
  *
  * isBoolean(false); // => true
  * ```

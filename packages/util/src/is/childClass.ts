@@ -12,7 +12,7 @@ import type { Constructor } from '../types';
  * <BR>
  *
  * ```javascript
- * import { isChildClass } from '@reef-defi/util';
+ * import { isChildClass } from '@dust-defi/util';
  *
  * console.log('isChildClass', isChildClass(BN, BN); // => true
  * console.log('isChildClass', isChildClass(BN, Uint8Array); // => false

@@ -36,7 +36,7 @@ function createValue (valueBn: BN, byteLength: number, { isLe, isNegative }: Opt
  * <BR>
  *
  * ```javascript
- * import { bnToU8a } from '@reef-defi/util';
+ * import { bnToU8a } from '@dust-defi/util';
  *
  * bnToU8a(new BN(0x1234)); // => [0x12, 0x34]
  * ```

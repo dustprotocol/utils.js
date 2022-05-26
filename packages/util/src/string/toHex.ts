@@ -15,7 +15,7 @@ import { stringToU8a } from './toU8a';
  * <BR>
  *
  * ```javascript
- * import { stringToHex } from '@reef-defi/util';
+ * import { stringToHex } from '@dust-defi/util';
  *
  * stringToU8a('hello'); // 0x68656c6c6f
  * ```

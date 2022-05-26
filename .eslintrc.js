@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-const base = require('@reef-defi/dev/config/eslint.cjs');
+const base = require('@dust-defi/dev/config/eslint.cjs');
 
 module.exports = {
   ...base,

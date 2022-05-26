@@ -13,7 +13,7 @@ type FnType = Function;
  * <BR>
  *
  * ```javascript
- * import { isFunction } from '@reef-defi/util';
+ * import { isFunction } from '@dust-defi/util';
  *
  * isFunction(() => false); // => true
  * ```

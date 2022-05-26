@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isError } from '@reef-defi/util';
+ * import { isError } from '@dust-defi/util';
  *
  * console.log('isError', isError(new Error('message'))); // => true
  * ```

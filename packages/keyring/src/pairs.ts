@@ -1,11 +1,11 @@
 // Copyright 2017-2021 @polkadot/keyring authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@reef-defi/util/types';
+import type { HexString } from '@dust-defi/util/types';
 import type { KeyringPair, KeyringPairs } from './types';
 
-import { assert, isHex, isU8a, u8aToHex, u8aToU8a } from '@reef-defi/util';
-import { decodeAddress } from '@reef-defi/util-crypto';
+import { assert, isHex, isU8a, u8aToHex, u8aToU8a } from '@dust-defi/util';
+import { decodeAddress } from '@dust-defi/util-crypto';
 
 type KeyringPairMap = Record<string, KeyringPair>;
 

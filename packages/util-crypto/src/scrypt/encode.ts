@@ -1,10 +1,10 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@reef-defi/util/types';
+import type { HexString } from '@dust-defi/util/types';
 import type { Params } from './types';
 
-import { bufferToU8a, u8aToBuffer, u8aToU8a } from '@reef-defi/util';
+import { bufferToU8a, u8aToBuffer, u8aToU8a } from '@dust-defi/util';
 import scryptsy from 'scryptsy';
 
 import { isReady, scrypt } from '@polkadot/wasm-crypto';

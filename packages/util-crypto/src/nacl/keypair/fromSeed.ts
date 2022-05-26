@@ -16,7 +16,7 @@ import { ed25519KeypairFromSeed, isReady } from '@polkadot/wasm-crypto';
  * <BR>
  *
  * ```javascript
- * import { naclKeypairFromSeed } from '@reef-defi/util-crypto';
+ * import { naclKeypairFromSeed } from '@dust-defi/util-crypto';
  *
  * naclKeypairFromSeed(...); // => { secretKey: [...], publicKey: [...] }
  * ```

@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { assert, bnToU8a, u8aConcat } from '@reef-defi/util';
+import { assert, bnToU8a, u8aConcat } from '@dust-defi/util';
 
 import { EXPAND_OPT, secp256k1 } from './secp256k1';
 

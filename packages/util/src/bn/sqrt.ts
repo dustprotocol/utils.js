@@ -18,7 +18,7 @@ const SQRT_MAX_SAFE_INTEGER = new BN(94906265);
  *
  * ```javascript
  * import BN from 'bn.js';
- * import { bnSqrt } from '@reef-defi/util';
+ * import { bnSqrt } from '@dust-defi/util';
  *
  * bnSqrt(new BN(16)).toString(); // => '4'
  * ```

@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { assert, stringToU8a } from '@reef-defi/util';
+import { assert, stringToU8a } from '@dust-defi/util';
 
 import { bip39ToMiniSecret, isReady } from '@polkadot/wasm-crypto';
 

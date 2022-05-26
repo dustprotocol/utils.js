@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { u8aConcat } from '@reef-defi/util';
+import { u8aConcat } from '@dust-defi/util';
 
 import { hmacSha256, hmacSha512 } from '../../hmac';
 import { mnemonicToSeedSync } from '../../mnemonic/bip39';

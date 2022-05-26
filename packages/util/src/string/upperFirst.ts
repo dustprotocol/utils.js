@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { stringUpperFirst } from '@reef-defi/util';
+ * import { stringUpperFirst } from '@dust-defi/util';
  *
  * stringUpperFirst('abc'); // => 'Abc'
  * ```

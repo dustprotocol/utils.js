@@ -1,13 +1,13 @@
 {
   "author": "Reef Finance",
-  "bugs": "https://github.com/reef-defi/utils.js/issues",
-  "homepage": "https://github.com/reef-defi/utils.js#readme",
+  "bugs": "https://github.com/dustprotocol/utils.js/issues",
+  "homepage": "https://github.com/dustprotocol/utils.js#readme",
   "license": "Apache-2",
   "packageManager": "yarn@3.0.1",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/reef-defi/utils.js.git"
+    "url": "https://github.com/dustprotocol/utils.js.git"
   },
   "sideEffects": false,
   "version": "7.8.2",
@@ -30,7 +30,7 @@
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@polkadot/ts": "^0.4.13",
-    "@reef-defi/dev": "^0.63.19",
+    "@dust-defi/dev": "^0.63.19",
     "@types/ed2curve": "^0.2.2",
     "@types/jest": "^27.0.2"
   },

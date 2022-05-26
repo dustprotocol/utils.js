@@ -14,7 +14,7 @@ const HEX_REGEX = /^0x[a-fA-F0-9]+$/;
  * <BR>
  *
  * ```javascript
- * import { isHex } from '@reef-defi/util';
+ * import { isHex } from '@dust-defi/util';
  *
  * isHex('0x1234'); // => true
  * isHex('0x1234', 8); // => false

@@ -1,11 +1,11 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@reef-defi/util/types';
+import type { HexString } from '@dust-defi/util/types';
 import type { DeriveJunction } from '../key/DeriveJunction';
 import type { Prefix } from './types';
 
-import { assert } from '@reef-defi/util';
+import { assert } from '@dust-defi/util';
 
 import { keyExtractPath } from '../key';
 import { schnorrkelDerivePublic } from '../schnorrkel';

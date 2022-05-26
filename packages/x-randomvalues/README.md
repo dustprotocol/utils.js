@@ -1,3 +1,3 @@
-# @reef-defi/x-randomvalues
+# @dust-defi/x-randomvalues
 
 A cross-environment `window.crypto.getRandomValues`.

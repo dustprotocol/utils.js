@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isInstanceOf } from '@reef-defi/util';
+ * import { isInstanceOf } from '@dust-defi/util';
  *
  * console.log('isInstanceOf', isInstanceOf(new Array(0), Array)); // => true
  * ```

@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isNumber } from '@reef-defi/util';
+ * import { isNumber } from '@dust-defi/util';
  *
  * console.log('isNumber', isNumber(1234)); // => true
  * ```

@@ -1,11 +1,11 @@
-# @reef-defi/x-ws
+# @dust-defi/x-ws
 
 A cross-environment WebSocket.
 
-Install it via `yarn add @reef-defi/x-ws`
+Install it via `yarn add @dust-defi/x-ws`
 
 ```js
-import { WebSocket } from '@reef-defi/x-ws';
+import { WebSocket } from '@dust-defi/x-ws';
 
 ...
 const ws = new WebSocket('wss://example.com');

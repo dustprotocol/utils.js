@@ -1,11 +1,11 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@reef-defi/util/types';
+import type { HexString } from '@dust-defi/util/types';
 import type { Prefix } from './types';
 
 // Original implementation: https://github.com/paritytech/polka-ui/blob/4858c094684769080f5811f32b081dd7780b0880/src/polkadot.js#L34
-import { assert, u8aConcat } from '@reef-defi/util';
+import { assert, u8aConcat } from '@dust-defi/util';
 
 import { base58Encode } from '../base58/encode';
 import { decodeAddress } from './decode';

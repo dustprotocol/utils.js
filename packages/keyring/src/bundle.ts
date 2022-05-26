@@ -3,7 +3,7 @@
 
 import { Keyring } from './keyring';
 
-export { decodeAddress, encodeAddress, setSS58Format } from '@reef-defi/util-crypto';
+export { decodeAddress, encodeAddress, setSS58Format } from '@dust-defi/util-crypto';
 
 export * from './defaults';
 export { createPair } from './pair';

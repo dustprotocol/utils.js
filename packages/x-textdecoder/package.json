@@ -1,19 +1,19 @@
 {
   "author": "Reef Finance",
-  "bugs": "https://github.com/reef-defi/utils.js/issues",
+  "bugs": "https://github.com/dustprotocol/utils.js/issues",
   "contributors": [],
   "description": "A TextDecoder replacement",
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "https://github.com/reef-defi/utils.js/tree/master/packages/x-textdecoder#readme",
+  "homepage": "https://github.com/dustprotocol/utils.js/tree/master/packages/x-textdecoder#readme",
   "license": "Apache-2.0",
   "maintainers": [],
-  "name": "@reef-defi/x-textdecoder",
+  "name": "@dust-defi/x-textdecoder",
   "repository": {
     "directory": "packages/x-textdecoder",
     "type": "git",
-    "url": "https://github.com/reef-defi/utils.js.git"
+    "url": "https://github.com/dustprotocol/utils.js.git"
   },
   "sideEffects": false,
   "type": "module",
@@ -23,6 +23,6 @@
   "react-native": "react-native.js",
   "dependencies": {
     "@babel/runtime": "^7.16.0",
-    "@reef-defi/x-global": "7.8.2"
+    "@dust-defi/x-global": "7.8.2"
   }
 }

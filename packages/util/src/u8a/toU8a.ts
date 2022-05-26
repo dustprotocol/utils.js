@@ -20,7 +20,7 @@ import { stringToU8a } from '../string/toU8a';
  * <BR>
  *
  * ```javascript
- * import { u8aToU8a } from '@reef-defi/util';
+ * import { u8aToU8a } from '@dust-defi/util';
  *
  * u8aToU8a(new Uint8Array([0x12, 0x34]); // => Uint8Array([0x12, 0x34])
  * u8aToU8a(0x1234); // => Uint8Array([0x12, 0x34])

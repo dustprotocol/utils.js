@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { hexAddPrefix } from '@reef-defi/util';
+import { hexAddPrefix } from '@dust-defi/util';
 
 import xxhash64AsRaw from './asRaw';
 

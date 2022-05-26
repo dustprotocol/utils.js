@@ -1,11 +1,11 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@reef-defi/util/types';
+import type { HexString } from '@dust-defi/util/types';
 import type { HashType } from '../secp256k1/types';
 import type { Prefix } from './types';
 
-import { u8aConcat } from '@reef-defi/util';
+import { u8aConcat } from '@dust-defi/util';
 
 import { secp256k1Hasher } from '../secp256k1/hasher';
 import { encodeAddress } from './encode';

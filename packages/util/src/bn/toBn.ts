@@ -19,7 +19,7 @@ import { BN } from './bn';
  *
  * ```javascript
  * import BN from 'bn.js';
- * import { bnToBn } from '@reef-defi/util';
+ * import { bnToBn } from '@dust-defi/util';
  *
  * bnToBn(0x1234); // => BN(0x1234)
  * bnToBn(new BN(0x1234)); // => BN(0x1234)

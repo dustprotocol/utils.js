@@ -2182,9 +2182,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reef-defi/dev@npm:^0.63.19":
+"@dust-defi/dev@npm:^0.63.19":
   version: 0.63.19
-  resolution: "@reef-defi/dev@npm:0.63.19"
+  resolution: "@dust-defi/dev@npm:0.63.19"
   dependencies:
     "@babel/cli": ^7.15.7
     "@babel/core": ^7.15.8
@@ -2276,9 +2276,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reef-defi/hw-ledger-transports@7.8.2, @reef-defi/hw-ledger-transports@workspace:packages/hw-ledger-transports":
+"@dust-defi/hw-ledger-transports@7.8.2, @dust-defi/hw-ledger-transports@workspace:packages/hw-ledger-transports":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/hw-ledger-transports@workspace:packages/hw-ledger-transports"
+  resolution: "@dust-defi/hw-ledger-transports@workspace:packages/hw-ledger-transports"
   dependencies:
     "@babel/runtime": ^7.16.0
     "@ledgerhq/hw-transport": ^6.11.2
@@ -2291,49 +2291,49 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@reef-defi/hw-ledger@workspace:packages/hw-ledger":
+"@dust-defi/hw-ledger@workspace:packages/hw-ledger":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/hw-ledger@workspace:packages/hw-ledger"
+  resolution: "@dust-defi/hw-ledger@workspace:packages/hw-ledger"
   dependencies:
     "@babel/runtime": ^7.16.0
-    "@reef-defi/hw-ledger-transports": 7.8.2
-    "@reef-defi/util": 7.8.2
+    "@dust-defi/hw-ledger-transports": 7.8.2
+    "@dust-defi/util": 7.8.2
     "@zondax/ledger-substrate": ^0.22.0
   languageName: unknown
   linkType: soft
 
-"@reef-defi/keyring@workspace:packages/keyring":
+"@dust-defi/keyring@workspace:packages/keyring":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/keyring@workspace:packages/keyring"
+  resolution: "@dust-defi/keyring@workspace:packages/keyring"
   dependencies:
     "@babel/runtime": ^7.16.0
-    "@reef-defi/util": 7.8.2
-    "@reef-defi/util-crypto": 7.8.2
+    "@dust-defi/util": 7.8.2
+    "@dust-defi/util-crypto": 7.8.2
   peerDependencies:
-    "@reef-defi/util": 7.8.2
-    "@reef-defi/util-crypto": 7.8.2
+    "@dust-defi/util": 7.8.2
+    "@dust-defi/util-crypto": 7.8.2
   languageName: unknown
   linkType: soft
 
-"@reef-defi/networks@7.8.2, @reef-defi/networks@workspace:packages/networks":
+"@dust-defi/networks@7.8.2, @dust-defi/networks@workspace:packages/networks":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/networks@workspace:packages/networks"
+  resolution: "@dust-defi/networks@workspace:packages/networks"
   dependencies:
     "@babel/runtime": ^7.16.0
-    "@reef-defi/util": 7.8.2
-    "@reef-defi/x-fetch": 7.8.2
+    "@dust-defi/util": 7.8.2
+    "@dust-defi/x-fetch": 7.8.2
   languageName: unknown
   linkType: soft
 
-"@reef-defi/util-crypto@7.8.2, @reef-defi/util-crypto@workspace:packages/util-crypto":
+"@dust-defi/util-crypto@7.8.2, @dust-defi/util-crypto@workspace:packages/util-crypto":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/util-crypto@workspace:packages/util-crypto"
+  resolution: "@dust-defi/util-crypto@workspace:packages/util-crypto"
   dependencies:
     "@babel/runtime": ^7.16.0
     "@polkadot/wasm-crypto": ^4.2.1
-    "@reef-defi/networks": 7.8.2
-    "@reef-defi/util": 7.8.2
-    "@reef-defi/x-randomvalues": 7.8.2
+    "@dust-defi/networks": 7.8.2
+    "@dust-defi/util": 7.8.2
+    "@dust-defi/x-randomvalues": 7.8.2
     "@types/bn.js": ^4.11.6
     "@types/create-hash": ^1.2.2
     "@types/elliptic": ^6.4.14
@@ -2352,17 +2352,17 @@ __metadata:
     tweetnacl: ^1.0.3
     xxhashjs: ^0.2.2
   peerDependencies:
-    "@reef-defi/util": 7.8.2
+    "@dust-defi/util": 7.8.2
   languageName: unknown
   linkType: soft
 
-"@reef-defi/util@7.8.2, @reef-defi/util@workspace:packages/util":
+"@dust-defi/util@7.8.2, @dust-defi/util@workspace:packages/util":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/util@workspace:packages/util"
+  resolution: "@dust-defi/util@workspace:packages/util"
   dependencies:
     "@babel/runtime": ^7.16.0
-    "@reef-defi/x-textdecoder": 7.8.2
-    "@reef-defi/x-textencoder": 7.8.2
+    "@dust-defi/x-textdecoder": 7.8.2
+    "@dust-defi/x-textencoder": 7.8.2
     "@types/bn.js": ^4.11.6
     bn.js: ^4.12.0
     camelcase: ^6.2.0
@@ -2370,69 +2370,69 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@reef-defi/x-bundle@workspace:packages/x-bundle":
+"@dust-defi/x-bundle@workspace:packages/x-bundle":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/x-bundle@workspace:packages/x-bundle"
+  resolution: "@dust-defi/x-bundle@workspace:packages/x-bundle"
   dependencies:
     "@babel/runtime": ^7.16.0
-    "@reef-defi/util": 7.8.2
+    "@dust-defi/util": 7.8.2
     buffer-es6: ^4.9.3
   languageName: unknown
   linkType: soft
 
-"@reef-defi/x-fetch@7.8.2, @reef-defi/x-fetch@workspace:packages/x-fetch":
+"@dust-defi/x-fetch@7.8.2, @dust-defi/x-fetch@workspace:packages/x-fetch":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/x-fetch@workspace:packages/x-fetch"
+  resolution: "@dust-defi/x-fetch@workspace:packages/x-fetch"
   dependencies:
     "@babel/runtime": ^7.16.0
-    "@reef-defi/x-global": 7.8.2
+    "@dust-defi/x-global": 7.8.2
     "@types/node-fetch": ^2.5.12
     node-fetch: ^2.6.6
   languageName: unknown
   linkType: soft
 
-"@reef-defi/x-global@7.8.2, @reef-defi/x-global@workspace:packages/x-global":
+"@dust-defi/x-global@7.8.2, @dust-defi/x-global@workspace:packages/x-global":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/x-global@workspace:packages/x-global"
+  resolution: "@dust-defi/x-global@workspace:packages/x-global"
   dependencies:
     "@babel/runtime": ^7.16.0
   languageName: unknown
   linkType: soft
 
-"@reef-defi/x-randomvalues@7.8.2, @reef-defi/x-randomvalues@workspace:packages/x-randomvalues":
+"@dust-defi/x-randomvalues@7.8.2, @dust-defi/x-randomvalues@workspace:packages/x-randomvalues":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/x-randomvalues@workspace:packages/x-randomvalues"
+  resolution: "@dust-defi/x-randomvalues@workspace:packages/x-randomvalues"
   dependencies:
     "@babel/runtime": ^7.16.0
-    "@reef-defi/x-global": 7.8.2
+    "@dust-defi/x-global": 7.8.2
     "@types/react-native": ^0.66.2
   languageName: unknown
   linkType: soft
 
-"@reef-defi/x-textdecoder@7.8.2, @reef-defi/x-textdecoder@workspace:packages/x-textdecoder":
+"@dust-defi/x-textdecoder@7.8.2, @dust-defi/x-textdecoder@workspace:packages/x-textdecoder":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/x-textdecoder@workspace:packages/x-textdecoder"
+  resolution: "@dust-defi/x-textdecoder@workspace:packages/x-textdecoder"
   dependencies:
     "@babel/runtime": ^7.16.0
-    "@reef-defi/x-global": 7.8.2
+    "@dust-defi/x-global": 7.8.2
   languageName: unknown
   linkType: soft
 
-"@reef-defi/x-textencoder@7.8.2, @reef-defi/x-textencoder@workspace:packages/x-textencoder":
+"@dust-defi/x-textencoder@7.8.2, @dust-defi/x-textencoder@workspace:packages/x-textencoder":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/x-textencoder@workspace:packages/x-textencoder"
+  resolution: "@dust-defi/x-textencoder@workspace:packages/x-textencoder"
   dependencies:
     "@babel/runtime": ^7.16.0
-    "@reef-defi/x-global": 7.8.2
+    "@dust-defi/x-global": 7.8.2
   languageName: unknown
   linkType: soft
 
-"@reef-defi/x-ws@workspace:packages/x-ws":
+"@dust-defi/x-ws@workspace:packages/x-ws":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/x-ws@workspace:packages/x-ws"
+  resolution: "@dust-defi/x-ws@workspace:packages/x-ws"
   dependencies:
     "@babel/runtime": ^7.16.0
-    "@reef-defi/x-global": 7.8.2
+    "@dust-defi/x-global": 7.8.2
     "@types/websocket": ^1.0.4
     websocket: ^1.0.34
   languageName: unknown
@@ -9446,7 +9446,7 @@ resolve@^2.0.0-next.3:
   dependencies:
     "@babel/core": ^7.16.0
     "@polkadot/ts": ^0.4.13
-    "@reef-defi/dev": ^0.63.19
+    "@dust-defi/dev": ^0.63.19
     "@types/ed2curve": ^0.2.2
     "@types/jest": ^27.0.2
   languageName: unknown

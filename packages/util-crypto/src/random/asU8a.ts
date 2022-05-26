@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { getRandomValues } from '@reef-defi/x-randomvalues';
+import { getRandomValues } from '@dust-defi/x-randomvalues';
 
 /**
  * @name randomAsU8a
@@ -12,7 +12,7 @@ import { getRandomValues } from '@reef-defi/x-randomvalues';
  * <BR>
  *
  * ```javascript
- * import { randomAsU8a } from '@reef-defi/util-crypto';
+ * import { randomAsU8a } from '@dust-defi/util-crypto';
  *
  * randomAsU8a(); // => Uint8Array([...])
  * ```

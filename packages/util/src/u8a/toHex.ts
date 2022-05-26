@@ -43,7 +43,7 @@ function trim (value: Uint8Array, halfLength: number): string {
  * <BR>
  *
  * ```javascript
- * import { u8aToHex } from '@reef-defi/util';
+ * import { u8aToHex } from '@dust-defi/util';
  *
  * u8aToHex(new Uint8Array([0x68, 0x65, 0x6c, 0x6c, 0xf])); // 0x68656c0f
  * ```

@@ -15,7 +15,7 @@ interface ObjectIndexed {
  * <BR>
  *
  * ```javascript
- * import { isObject } from '@reef-defi/util';
+ * import { isObject } from '@dust-defi/util';
  *
  * isObject({}); // => true
  * isObject('something'); // => false

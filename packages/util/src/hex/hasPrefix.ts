@@ -14,7 +14,7 @@ import { isHex } from '../is/hex';
  * <BR>
  *
  * ```javascript
- * import { hexHasPrefix } from '@reef-defi/util';
+ * import { hexHasPrefix } from '@dust-defi/util';
  *
  * console.log('has prefix', hexHasPrefix('0x1234')); // => true
  * ```

@@ -14,7 +14,7 @@ import { isReady, sha512 } from '@polkadot/wasm-crypto';
  * <BR>
  *
  * ```javascript
- * import { sha512AsU8a } from '@reef-defi/util-crypto';
+ * import { sha512AsU8a } from '@dust-defi/util-crypto';
  *
  * sha512AsU8a(Uint8Array.from([...])); // => Uint8Array([...])
  * ```

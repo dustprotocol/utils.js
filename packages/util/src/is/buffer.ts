@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isBuffer } from '@reef-defi/util';
+ * import { isBuffer } from '@dust-defi/util';
  *
  * console.log('isBuffer', isBuffer(Buffer.from([]))); // => true
  * ```

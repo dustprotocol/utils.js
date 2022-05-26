@@ -1,2 +1,2 @@
-# @reef-defi/hw-ledger-transports
+# @dust-defi/hw-ledger-transports
 

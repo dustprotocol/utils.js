@@ -3,8 +3,8 @@
 
 import type { KeyringInstance, KeyringOptions } from './types';
 
-import { hexToU8a } from '@reef-defi/util';
-import { KeypairType } from '@reef-defi/util-crypto/types';
+import { hexToU8a } from '@dust-defi/util';
+import { KeypairType } from '@dust-defi/util-crypto/types';
 
 import { Keyring } from './keyring';
 import { createPair } from './pair';

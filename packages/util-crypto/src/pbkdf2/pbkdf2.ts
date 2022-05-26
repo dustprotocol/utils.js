@@ -3,7 +3,7 @@
 
 // Adapted from https://gist.github.com/calvinmetcalf/91e8e84dc63c75f2aa53
 
-import { bnToU8a, u8aConcat } from '@reef-defi/util';
+import { bnToU8a, u8aConcat } from '@dust-defi/util';
 
 import { hmacSha512 } from '../hmac';
 

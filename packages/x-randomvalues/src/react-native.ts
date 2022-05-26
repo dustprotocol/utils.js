@@ -5,7 +5,7 @@
 // Copyright (c) 2018, 2020 Linus Unnebäck
 // SPDX-License-Identifier: MIT
 
-import { xglobal } from '@reef-defi/x-global';
+import { xglobal } from '@dust-defi/x-global';
 import { NativeModules } from 'react-native';
 
 import { insecureRandomValues } from './fallback';

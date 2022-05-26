@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { bufferToU8a } from '@reef-defi/util';
+import { bufferToU8a } from '@dust-defi/util';
 
 import { bs58 } from './bs58';
 import { base58Validate } from './validate';

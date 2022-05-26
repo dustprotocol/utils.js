@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isString } from '@reef-defi/util';
+ * import { isString } from '@dust-defi/util';
  *
  * console.log('isString', isString('test')); // => true
  * ```

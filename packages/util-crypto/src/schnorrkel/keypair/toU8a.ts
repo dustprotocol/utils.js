@@ -3,7 +3,7 @@
 
 import type { Keypair } from '../../types';
 
-import { u8aConcat } from '@reef-defi/util';
+import { u8aConcat } from '@dust-defi/util';
 
 export function schnorrkelKeypairToU8a ({ publicKey, secretKey }: Keypair): Uint8Array {
   return u8aConcat(secretKey, publicKey).slice();

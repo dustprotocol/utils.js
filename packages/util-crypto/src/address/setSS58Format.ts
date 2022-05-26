@@ -3,7 +3,7 @@
 
 import type { Prefix } from './types';
 
-import { logger } from '@reef-defi/util';
+import { logger } from '@dust-defi/util';
 
 import { defaults } from './defaults';
 

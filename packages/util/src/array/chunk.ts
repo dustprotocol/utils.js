@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { arrayChunk } from '@reef-defi/util';
+ * import { arrayChunk } from '@dust-defi/util';
  *
  * arrayChunk([1, 2, 3, 4, 5]); // [[1, 2], [3, 4], [5]]
  * ```

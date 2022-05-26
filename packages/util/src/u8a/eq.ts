@@ -19,7 +19,7 @@ function equals (a: Uint8Array, b: Uint8Array): boolean {
  * <BR>
  *
  * ```javascript
- * import { u8aEq } from '@reef-defi/util';
+ * import { u8aEq } from '@dust-defi/util';
  *
  * u8aEq(new Uint8Array([0x68, 0x65]), new Uint8Array([0x68, 0x65])); // true
  * ```

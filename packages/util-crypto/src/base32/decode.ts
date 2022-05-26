@@ -3,7 +3,7 @@
 
 // adapted from https://github.com/multiformats/js-multibase/blob/424709195b46ffb1d6f2f69a7707598ebe751e5e/src/rfc4648.js
 
-import { assert } from '@reef-defi/util';
+import { assert } from '@dust-defi/util';
 
 import { BASE32_ALPHABET, BITS_PER_CHAR } from './bs32';
 import { base32Validate } from './validate';

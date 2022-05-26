@@ -17,7 +17,7 @@ interface Observable {
  * <BR>
  *
  * ```javascript
- * import { isObservable } from '@reef-defi/util';
+ * import { isObservable } from '@dust-defi/util';
  *
  * console.log('isObservable', isObservable(...));
  * ```

@@ -1,11 +1,11 @@
-# @reef-defi/x-textdecoder
+# @dust-defi/x-textdecoder
 
 A cross-environment TextDecoder.
 
-Install it via `yarn add @reef-defi/x-textdecoder`
+Install it via `yarn add @dust-defi/x-textdecoder`
 
 ```js
-import { TextDecoder } from '@reef-defi/x-textdecoder';
+import { TextDecoder } from '@dust-defi/x-textdecoder';
 
 ...
 const decoder = new TextDecoder('utf-8');

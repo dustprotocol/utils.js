@@ -15,7 +15,7 @@ import { hexStripPrefix } from './stripPrefix';
  * <BR>
  *
  * ```javascript
- * import { hexFixLength } from '@reef-defi/util';
+ * import { hexFixLength } from '@dust-defi/util';
  *
  * console.log('fixed', hexFixLength('0x12', 16)); // => 0x12
  * console.log('fixed', hexFixLength('0x12', 16, true)); // => 0x0012

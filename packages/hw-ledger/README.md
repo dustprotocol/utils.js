@@ -1,2 +1,2 @@
-# @reef-defi/hw-ledger
+# @dust-defi/hw-ledger
 

@@ -1,4 +1,4 @@
-# @reef-defi/keyring
+# @dust-defi/keyring
 
 Key management of user accounts including generation and retrieval of keyring pairs from a variety of input combinations.
 
@@ -7,11 +7,11 @@ Key management of user accounts including generation and retrieval of keyring pa
 Installation -
 
 ```
-yarn add @reef-defi/keyring
+yarn add @dust-defi/keyring
 ```
 
 Classes and Functions can be imported as follows:
 
 ```js
-import Keyring from '@reef-defi/keyring';
+import Keyring from '@dust-defi/keyring';
 ```

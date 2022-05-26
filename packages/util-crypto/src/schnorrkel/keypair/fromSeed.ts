@@ -1,10 +1,10 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@reef-defi/util/types';
+import type { HexString } from '@dust-defi/util/types';
 import type { Keypair } from '../../types';
 
-import { assert, u8aToU8a } from '@reef-defi/util';
+import { assert, u8aToU8a } from '@dust-defi/util';
 
 import { sr25519KeypairFromSeed } from '@polkadot/wasm-crypto';
 

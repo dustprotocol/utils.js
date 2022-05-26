@@ -19,20 +19,20 @@ import type { KnownSubstrate } from './types';
 export const knownSubstrate: KnownSubstrate[] = [
   {
     decimals: [18],
-    displayName: 'Reef Testnet',
-    network: 'reef-testnet',
+    displayName: 'Dust Testnet',
+    network: 'dust-testnet',
     prefix: 42,
     standardAccount: '*25519',
-    symbols: ['REEF'],
-    website: 'https://reef.io/'
+    symbols: ['DUST'],
+    website: 'https://dust.llc/'
   },
   {
     decimals: [18],
-    displayName: 'Reef Mainnet',
-    network: 'reef-mainnet',
+    displayName: 'Dust Mainnet',
+    network: 'dust-mainnet',
     prefix: 42,
     standardAccount: '*25519',
-    symbols: ['REEF'],
-    website: 'https://reef.io/'
+    symbols: ['DUST'],
+    website: 'https://dust.llc/'
   }
 ];

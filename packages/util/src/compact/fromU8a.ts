@@ -13,7 +13,7 @@ import { u8aToBn, u8aToU8a } from '../u8a';
  * <BR>
  *
  * ```javascript
- * import { compactFromU8a } from '@reef-defi/util';
+ * import { compactFromU8a } from '@dust-defi/util';
  *
  * const [offset, length] = compactFromU8a(new Uint8Array([254, 255, 3, 0]));
  *

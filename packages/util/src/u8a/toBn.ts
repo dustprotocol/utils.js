@@ -20,7 +20,7 @@ import { u8aToHex } from './toHex';
  * <BR>
  *
  * ```javascript
- * import { u8aToBn } from '@reef-defi/util';
+ * import { u8aToBn } from '@dust-defi/util';
  *
  * u8aToHex(new Uint8Array([0x68, 0x65, 0x6c, 0x6c, 0xf])); // 0x68656c0f
  * ```

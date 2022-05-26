@@ -14,7 +14,7 @@ const UNPREFIX_HEX_REGEX = /^[a-fA-F0-9]+$/;
  * <BR>
  *
  * ```javascript
- * import { hexStripPrefix } from '@reef-defi/util';
+ * import { hexStripPrefix } from '@dust-defi/util';
  *
  * console.log('stripped', hexStripPrefix('0x1234')); // => 1234
  * ```

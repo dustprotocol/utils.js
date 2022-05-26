@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isUint8Array } from '@reef-defi/util';
+ * import { isUint8Array } from '@dust-defi/util';
  *
  * console.log('isU8a', isU8a([])); // => false
  * ```

@@ -1,7 +1,7 @@
 # CHANGELOG
 
 ## 7.8.2 Dec 15, 2021
-- forked to `@reef-defi`
+- forked to `@dust-defi`
 
 # Polkadot changelog
 ## 7.8.2 Nov 7, 2021

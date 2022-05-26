@@ -16,7 +16,7 @@ import { isUndefined } from '../is/undefined';
  * <BR>
  *
  * ```javascript
- * import { numberToHex } from '@reef-defi/util';
+ * import { numberToHex } from '@dust-defi/util';
  *
  * numberToHex(0x1234); // => '0x1234'
  * numberToHex(0x1234, 32); // => 0x00001234

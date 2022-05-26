@@ -14,7 +14,7 @@ import { hexHasPrefix } from './hasPrefix';
  * <BR>
  *
  * ```javascript
- * import { hexAddPrefix } from '@reef-defi/util';
+ * import { hexAddPrefix } from '@dust-defi/util';
  *
  * console.log('With prefix', hexAddPrefix('0a0b12')); // => 0x0a0b12
  * ```

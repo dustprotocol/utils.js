@@ -1,10 +1,10 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { BN } from '@reef-defi/util';
-import type { HexString } from '@reef-defi/util/types';
+import type { BN } from '@dust-defi/util';
+import type { HexString } from '@dust-defi/util/types';
 
-import { bnToU8a, stringToU8a, u8aConcat } from '@reef-defi/util';
+import { bnToU8a, stringToU8a, u8aConcat } from '@dust-defi/util';
 
 import { blake2AsU8a } from '../blake2/asU8a';
 import { decodeAddress } from './decode';

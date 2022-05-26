@@ -14,7 +14,7 @@ import { u8aToU8a } from './toU8a';
  * <BR>
  *
  * ```javascript
- * import { { u8aConcat } from '@reef-defi/util';
+ * import { { u8aConcat } from '@dust-defi/util';
  *
  * u8aConcat(
  *   new Uint8Array([1, 2, 3]),

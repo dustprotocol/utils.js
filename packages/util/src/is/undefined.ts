@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isUndefined } from '@reef-defi/util';
+ * import { isUndefined } from '@dust-defi/util';
  *
  * console.log('isUndefined', isUndefined(void(0))); // => true
  * ```

@@ -1,5 +1,5 @@
 {
-  "extends": "@reef-defi/dev/config/tsconfig.json",
+  "extends": "@dust-defi/dev/config/tsconfig.json",
   "exclude": [
     "build/**/*",
     "**/build/**/*"
@@ -7,25 +7,25 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@reef-defi/hw-ledger": [ "packages/ledger/src" ],
-      "@reef-defi/hw-ledger/*": [ "packages/ledger/src/*" ],
-      "@reef-defi/hw-ledger-transports": [ "packages/hw-ledger-transports/src/browser" ],
-      "@reef-defi/hw-ledger-transports/*": [ "packages/hw-ledger-transports/src/browser" ],
-      "@reef-defi/keyring": [ "packages/keyring/src" ],
-      "@reef-defi/keyring/*": [ "packages/keyring/src/*" ],
-      "@reef-defi/networks": [ "packages/networks/src" ],
-      "@reef-defi/networks/*": [ "packages/networks/src/*" ],
-      "@reef-defi/util-crypto": [ "packages/util-crypto/src" ],
-      "@reef-defi/util-crypto/*": [ "packages/util-crypto/src/*" ],
-      "@reef-defi/util": [ "packages/util/src" ],
-      "@reef-defi/util/*": [ "packages/util/src/*" ],
-      "@reef-defi/x-bundle/*": [ "packages/x-bundle/src/*" ],
-      "@reef-defi/x-fetch": [ "packages/x-fetch/src/browser" ],
-      "@reef-defi/x-global": [ "packages/x-global/src" ],
-      "@reef-defi/x-randomvalues": [ "packages/x-randomvalues/src/browser" ],
-      "@reef-defi/x-textdecoder": [ "packages/x-textdecoder/src/browser" ],
-      "@reef-defi/x-textencoder": [ "packages/x-textencoder/src/browser" ],
-      "@reef-defi/x-ws": [ "packages/x-ws/src/browser" ]
+      "@dust-defi/hw-ledger": [ "packages/ledger/src" ],
+      "@dust-defi/hw-ledger/*": [ "packages/ledger/src/*" ],
+      "@dust-defi/hw-ledger-transports": [ "packages/hw-ledger-transports/src/browser" ],
+      "@dust-defi/hw-ledger-transports/*": [ "packages/hw-ledger-transports/src/browser" ],
+      "@dust-defi/keyring": [ "packages/keyring/src" ],
+      "@dust-defi/keyring/*": [ "packages/keyring/src/*" ],
+      "@dust-defi/networks": [ "packages/networks/src" ],
+      "@dust-defi/networks/*": [ "packages/networks/src/*" ],
+      "@dust-defi/util-crypto": [ "packages/util-crypto/src" ],
+      "@dust-defi/util-crypto/*": [ "packages/util-crypto/src/*" ],
+      "@dust-defi/util": [ "packages/util/src" ],
+      "@dust-defi/util/*": [ "packages/util/src/*" ],
+      "@dust-defi/x-bundle/*": [ "packages/x-bundle/src/*" ],
+      "@dust-defi/x-fetch": [ "packages/x-fetch/src/browser" ],
+      "@dust-defi/x-global": [ "packages/x-global/src" ],
+      "@dust-defi/x-randomvalues": [ "packages/x-randomvalues/src/browser" ],
+      "@dust-defi/x-textdecoder": [ "packages/x-textdecoder/src/browser" ],
+      "@dust-defi/x-textencoder": [ "packages/x-textencoder/src/browser" ],
+      "@dust-defi/x-ws": [ "packages/x-ws/src/browser" ]
     },
     "skipLibCheck": true,
     "typeRoots": [

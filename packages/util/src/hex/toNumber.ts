@@ -12,7 +12,7 @@ import { hexToBn } from './toBn';
  * <BR>
  *
  * ```javascript
- * import { hexToNumber } from '@reef-defi/util';
+ * import { hexToNumber } from '@dust-defi/util';
  *
  * hexToNumber('0x1234'); // => 0x1234
  * ```

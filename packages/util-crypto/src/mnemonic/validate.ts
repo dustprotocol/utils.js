@@ -12,7 +12,7 @@ import { validateMnemonic } from './bip39';
  * <BR>
  *
  * ```javascript
- * import { mnemonicGenerate, mnemonicValidate } from '@reef-defi/util-crypto';
+ * import { mnemonicGenerate, mnemonicValidate } from '@dust-defi/util-crypto';
  *
  * const mnemonic = mnemonicGenerate(); // => string
  * const isValidMnemonic = mnemonicValidate(mnemonic); // => boolean

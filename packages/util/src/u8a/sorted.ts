@@ -12,7 +12,7 @@ import { u8aCmp } from './cmp';
  * <BR>
  *
  * ```javascript
- * import { u8aSorted} from '@reef-defi/util';
+ * import { u8aSorted} from '@dust-defi/util';
  *
  * u8aSorted([new Uint8Array([0x69]), new Uint8Array([0x68])]); // [0x68, 0x69]
  * ```

@@ -13,7 +13,7 @@ import { checkMaxMin } from './util';
  *
  * ```javascript
  * import BN from 'bn.js';
- * import { bnMax } from '@reef-defi/util';
+ * import { bnMax } from '@dust-defi/util';
  *
  * bnMax([new BN(1), new BN(3), new BN(2)]).toString(); // => '3'
  * ```

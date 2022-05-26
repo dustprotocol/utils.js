@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { assert, compactAddLength, isU8a, stringToU8a, u8aConcat } from '@reef-defi/util';
+import { assert, compactAddLength, isU8a, stringToU8a, u8aConcat } from '@dust-defi/util';
 
 import { blake2AsU8a } from '../blake2/asU8a';
 

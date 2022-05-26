@@ -3,7 +3,7 @@
 
 import type { Keypair } from '../types';
 
-import { u8aToHex } from '@reef-defi/util';
+import { u8aToHex } from '@dust-defi/util';
 
 import { waitReady } from '@polkadot/wasm-crypto';
 

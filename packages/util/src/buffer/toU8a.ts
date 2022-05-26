@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { bufferToU8a } from '@reef-defi/util';
+ * import { bufferToU8a } from '@dust-defi/util';
  *
  * bufferToU8a(Buffer.from([1, 2, 3]));
  * ```

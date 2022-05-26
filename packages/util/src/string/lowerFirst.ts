@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { stringLowerFirst } from '@reef-defi/util';
+ * import { stringLowerFirst } from '@dust-defi/util';
  *
  * stringLowerFirst('ABC'); // => 'aBC'
  * ```

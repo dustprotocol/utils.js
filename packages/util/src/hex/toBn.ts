@@ -27,7 +27,7 @@ function reverse (value: string): string {
  * <BR>
  *
  * ```javascript
- * import { hexToBn } from '@reef-defi/util';
+ * import { hexToBn } from '@dust-defi/util';
  *
  * hexToBn('0x123480001f'); // => BN(0x123480001f)
  * ```

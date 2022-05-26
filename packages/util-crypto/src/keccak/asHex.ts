@@ -1,9 +1,9 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@reef-defi/util/types';
+import type { HexString } from '@dust-defi/util/types';
 
-import { u8aToHex } from '@reef-defi/util';
+import { u8aToHex } from '@dust-defi/util';
 
 import { keccakAsU8a } from './asU8a';
 
@@ -16,7 +16,7 @@ import { keccakAsU8a } from './asU8a';
  * <BR>
  *
  * ```javascript
- * import { keccakAsHex } from '@reef-defi/util-crypto';
+ * import { keccakAsHex } from '@dust-defi/util-crypto';
  *
  * keccakAsHex('123'); // => 0x...
  * ```

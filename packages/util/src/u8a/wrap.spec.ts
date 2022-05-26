@@ -3,7 +3,7 @@
 
 // Originally from https://github.com/polkadot-js/extension/pull/743
 
-import { u8aConcat, u8aEq, u8aToString } from '@reef-defi/util';
+import { u8aConcat, u8aEq, u8aToString } from '@dust-defi/util';
 
 import { U8A_WRAP_ETHEREUM, U8A_WRAP_POSTFIX, U8A_WRAP_PREFIX, u8aUnwrapBytes, u8aWrapBytes } from './wrap';
 

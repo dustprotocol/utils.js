@@ -10,10 +10,10 @@ export const substrateRegistry = 'https://raw.githubusercontent.com/paritytech/s
 // last. This make lookups for the current a simple genesisHash[0]
 // (See Kusama as an example)
 export const knownGenesis: KnownGenesis = {
-  'reef-mainnet': [
+  'dust-mainnet': [
     '0x7834781d38e4798d548e34ec947d19deea29df148a7bf32484b7b24dacf8d4b7'
   ],
-  'reef-testnet': [
+  'dust-testnet': [
     '0x0f89efd7bf650f2d521afef7456ed98dff138f54b5b7915cc9bce437ab728660'
   ]
 };
@@ -28,12 +28,12 @@ export const knownIcon: KnownIcon = {
   westmint: 'polkadot'
 };
 
-// These match up with the keys of the ledgerApps object in the @reef-defi/hw-ledger/defaults.ts
+// These match up with the keys of the ledgerApps object in the @dust-defi/hw-ledger/defaults.ts
 // and maps to the known slip44 (minus the `0x8` hard derivation flag)
 // NOTE: Any network here needs to have a genesisHash attached in the config above
 export const knownLedger: KnownLedger = {
-  'reef-mainnet': 0x00000333,
-  'reef-testnet': 0x00000333
+  'dust-mainnet': 0x00000333,
+  'dust-testnet': 0x00000333
 };
 
 // testnets should not allow selection

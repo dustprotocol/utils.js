@@ -4,8 +4,8 @@
 import type { ResponseBase, SubstrateApp } from '@zondax/ledger-substrate';
 import type { AccountOptions, LedgerAddress, LedgerSignature, LedgerTypes, LedgerVersion } from './types';
 
-import { transports } from '@reef-defi/hw-ledger-transports';
-import { assert, u8aToBuffer } from '@reef-defi/util';
+import { transports } from '@dust-defi/hw-ledger-transports';
+import { assert, u8aToBuffer } from '@dust-defi/util';
 
 import { LEDGER_DEFAULT_ACCOUNT, LEDGER_DEFAULT_CHANGE, LEDGER_DEFAULT_INDEX, LEDGER_SUCCESS_CODE } from './constants';
 import { ledgerApps } from './defaults';

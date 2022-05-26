@@ -19,7 +19,7 @@ interface Encrypted {
  * <BR>
  *
  * ```javascript
- * import { naclEncrypt } from '@reef-defi/util-crypto';
+ * import { naclEncrypt } from '@dust-defi/util-crypto';
  *
  * naclEncrypt([...], [...]); // => [...]
  * ```

@@ -16,8 +16,8 @@
 //
 // With the above we additionally need a .d.ts to just export the packageInfo
 
-import { packageInfo as decoderInfo } from '@reef-defi/x-textdecoder';
-import { packageInfo as encoderInfo } from '@reef-defi/x-textencoder';
+import { packageInfo as decoderInfo } from '@dust-defi/x-textdecoder';
+import { packageInfo as encoderInfo } from '@dust-defi/x-textencoder';
 
 import { packageInfo } from './packageInfo';
 import { detectPackage } from './versionDetect';

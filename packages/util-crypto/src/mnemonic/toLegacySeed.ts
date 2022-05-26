@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { assert } from '@reef-defi/util';
+import { assert } from '@dust-defi/util';
 
 import { bip39ToSeed, isReady } from '@polkadot/wasm-crypto';
 
@@ -15,7 +15,7 @@ import { mnemonicValidate } from './validate';
  * <BR>
  *
  * ```javascript
- * import { mnemonicGenerate, mnemonicToLegacySeed, mnemonicValidate } from '@reef-defi/util-crypto';
+ * import { mnemonicGenerate, mnemonicToLegacySeed, mnemonicValidate } from '@dust-defi/util-crypto';
  *
  * const mnemonic = mnemonicGenerate(); // => string
  * const isValidMnemonic = mnemonicValidate(mnemonic); // => boolean

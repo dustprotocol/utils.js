@@ -16,7 +16,7 @@ import { hexStripPrefix } from './stripPrefix';
  * <BR>
  *
  * ```javascript
- * import { hexToU8a } from '@reef-defi/util';
+ * import { hexToU8a } from '@dust-defi/util';
  *
  * hexToU8a('0x80001f'); // Uint8Array([0x80, 0x00, 0x1f])
  * hexToU8a('0x80001f', 32); // Uint8Array([0x00, 0x80, 0x00, 0x1f])

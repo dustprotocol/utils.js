@@ -12,7 +12,7 @@ import nacl from 'tweetnacl';
  * <BR>
  *
  * ```javascript
- * import { naclDecrypt } from '@reef-defi/util-crypto';
+ * import { naclDecrypt } from '@dust-defi/util-crypto';
  *
  * naclDecrypt([...], [...], [...]); // => [...]
  * ```

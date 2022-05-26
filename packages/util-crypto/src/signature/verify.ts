@@ -1,10 +1,10 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@reef-defi/util/types';
+import type { HexString } from '@dust-defi/util/types';
 import type { KeypairType, VerifyResult } from '../types';
 
-import { assert, u8aIsWrapped, u8aToU8a, u8aUnwrapBytes, u8aWrapBytes } from '@reef-defi/util';
+import { assert, u8aIsWrapped, u8aToU8a, u8aUnwrapBytes, u8aWrapBytes } from '@dust-defi/util';
 
 import { decodeAddress } from '../address/decode';
 import { naclVerify } from '../nacl/verify';

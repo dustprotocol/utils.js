@@ -13,7 +13,7 @@
  * <BR>
  *
  * ```javascript
- * import { arrayFlatten } from '@reef-defi/util';
+ * import { arrayFlatten } from '@dust-defi/util';
  *
  * arrayFlatten([[1, 2], [3, 4], [5]]); // [1, 2, 3, 4, 5]
  * ```

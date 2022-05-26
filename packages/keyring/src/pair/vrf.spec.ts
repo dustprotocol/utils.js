@@ -3,8 +3,8 @@
 
 import type { KeyringPair } from '../types';
 
-import { u8aToHex } from '@reef-defi/util';
-import { cryptoWaitReady, encodeAddress as toSS58, naclKeypairFromSeed, randomAsU8a, schnorrkelKeypairFromSeed, secp256k1KeypairFromSeed } from '@reef-defi/util-crypto';
+import { u8aToHex } from '@dust-defi/util';
+import { cryptoWaitReady, encodeAddress as toSS58, naclKeypairFromSeed, randomAsU8a, schnorrkelKeypairFromSeed, secp256k1KeypairFromSeed } from '@dust-defi/util-crypto';
 
 import { createPair } from '.';
 

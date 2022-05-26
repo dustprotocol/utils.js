@@ -3,4 +3,4 @@
 
 export { packageInfo } from './packageInfo';
 
-console.error('@reef-defi/x-bundle is not meant to be used directly');
+console.error('@dust-defi/x-bundle is not meant to be used directly');

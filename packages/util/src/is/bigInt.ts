@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isBigInt } from '@reef-defi/util';
+ * import { isBigInt } from '@dust-defi/util';
  *
  * console.log('isBigInt', isBigInt(123_456n)); // => true
  * ```

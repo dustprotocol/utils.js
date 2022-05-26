@@ -1,19 +1,19 @@
 {
   "author": "Reef Finance",
-  "bugs": "https://github.com/reef-defi/utils.js/issues",
+  "bugs": "https://github.com/dustprotocol/utils.js/issues",
   "contributors": [],
   "description": "Keyring management",
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "https://github.com/reef-defi/utils.js/tree/master/packages/keyring#readme",
+  "homepage": "https://github.com/dustprotocol/utils.js/tree/master/packages/keyring#readme",
   "license": "Apache-2.0",
   "maintainers": [],
-  "name": "@reef-defi/keyring",
+  "name": "@dust-defi/keyring",
   "repository": {
     "directory": "packages/keyring",
     "type": "git",
-    "url": "https://github.com/reef-defi/utils.js.git"
+    "url": "https://github.com/dustprotocol/utils.js.git"
   },
   "sideEffects": [
     "./detectPackage.js",
@@ -24,11 +24,11 @@
   "main": "index.js",
   "dependencies": {
     "@babel/runtime": "^7.16.0",
-    "@reef-defi/util": "7.8.2",
-    "@reef-defi/util-crypto": "7.8.2"
+    "@dust-defi/util": "7.8.2",
+    "@dust-defi/util-crypto": "7.8.2"
   },
   "peerDependencies": {
-    "@reef-defi/util": "7.8.2",
-    "@reef-defi/util-crypto": "7.8.2"
+    "@dust-defi/util": "7.8.2",
+    "@dust-defi/util-crypto": "7.8.2"
   }
 }

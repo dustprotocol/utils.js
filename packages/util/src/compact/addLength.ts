@@ -11,7 +11,7 @@ import { compactToU8a } from './toU8a';
  * <BR>
  *
  * ```javascript
- * import { compactAddLength } from '@reef-defi/util';
+ * import { compactAddLength } from '@dust-defi/util';
  *
  * console.log(compactAddLength(new Uint8Array([0xde, 0xad, 0xbe, 0xef]))); // Uint8Array([4 << 2, 0xde, 0xad, 0xbe, 0xef])
  * ```

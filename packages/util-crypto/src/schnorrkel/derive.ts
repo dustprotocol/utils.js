@@ -3,7 +3,7 @@
 
 import type { Keypair } from '../types';
 
-import { assert, isU8a } from '@reef-defi/util';
+import { assert, isU8a } from '@dust-defi/util';
 
 import { schnorrkelKeypairFromU8a } from './keypair/fromU8a';
 import { schnorrkelKeypairToU8a } from './keypair/toU8a';

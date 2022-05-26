@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { assert } from '@reef-defi/util';
+import { assert } from '@dust-defi/util';
 
 import { BASE58_ALPHABET } from './bs58';
 

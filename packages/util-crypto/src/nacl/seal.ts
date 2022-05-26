@@ -19,7 +19,7 @@ interface Sealed {
  * <BR>
  *
  * ```javascript
- * import { naclSeal } from '@reef-defi/util-crypto';
+ * import { naclSeal } from '@dust-defi/util-crypto';
  *
  * naclSeal([...], [...], [...], [...]); // => [...]
  * ```

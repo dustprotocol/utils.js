@@ -14,7 +14,7 @@ import nacl from 'tweetnacl';
  * <BR>
  *
  * ```javascript
- * import { naclBoxKeypairFromSecret } from '@reef-defi/util-crypto';
+ * import { naclBoxKeypairFromSecret } from '@dust-defi/util-crypto';
  *
  * naclBoxKeypairFromSecret(...); // => { secretKey: [...], publicKey: [...] }
  * ```

@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isNull } from '@reef-defi/util';
+ * import { isNull } from '@dust-defi/util';
  *
  * console.log('isNull', isNull(null)); // => true
  * ```

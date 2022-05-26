@@ -13,7 +13,7 @@ import { isUndefined } from '../is/undefined';
  * <BR>
  *
  * ```javascript
- * import { arrayFilter } from '@reef-defi/util';
+ * import { arrayFilter } from '@dust-defi/util';
  *
  * arrayFilter([0, void 0, true, null, false, '']); // [0, true, null, false, '']
  * arrayFilter([0, void 0, true, null, false, ''], false); // [0, true, false, '']

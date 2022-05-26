@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { u8aEq, u8aToHex } from '@reef-defi/util';
+import { u8aEq, u8aToHex } from '@dust-defi/util';
 
 import { waitReady } from '@polkadot/wasm-crypto';
 

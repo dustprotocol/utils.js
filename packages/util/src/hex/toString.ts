@@ -13,7 +13,7 @@ import { hexToU8a } from './toU8a';
  * <BR>
  *
  * ```javascript
- * import { hexToString } from '@reef-defi/util';
+ * import { hexToString } from '@dust-defi/util';
  *
  * hexToU8a('0x68656c6c6f'); // hello
  * ```

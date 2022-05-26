@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/util-crypto authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { u8aToHex, u8aToU8a } from '@reef-defi/util';
+import { u8aToHex, u8aToU8a } from '@dust-defi/util';
 
 import { keccakAsU8a } from '../keccak';
 import { secp256k1Recover } from '.';

@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/keyring authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { u8aToHex } from '@reef-defi/util';
-import { cryptoWaitReady } from '@reef-defi/util-crypto';
+import { u8aToHex } from '@dust-defi/util';
+import { cryptoWaitReady } from '@dust-defi/util-crypto';
 
 import { createTestPairs } from './testingPairs';
 import Keyring from '.';
